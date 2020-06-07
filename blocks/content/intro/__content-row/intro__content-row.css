@@ -1,0 +1,19 @@
+.intro__content-row {
+    display: flex;
+    justify-content: flex-start;
+    margin: 35px 0 11px 0;
+    width:70%;
+  }
+
+  @media screen and (max-width: 768px){
+    .intro__content-row {
+      width: 94%;
+    }
+  
+  } 
+
+  @media screen and (max-width: 425px){
+    .intro__content-row {
+      margin: 24px 0 32px 0;
+    }
+  }

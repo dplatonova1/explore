@@ -1,0 +1,13 @@
+
+.typo_lh_xl {
+    /* line-height: 93px; */
+    line-height: 5.81rem;
+  }
+
+  @media screen and (max-width: 425px){
+    .typo_lh_xl {
+      /* line-height: 44px; */
+      line-height: 2.75rem;
+    }
+  
+  } 

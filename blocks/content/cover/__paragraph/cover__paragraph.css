@@ -1,0 +1,27 @@
+
+.cover__paragraph {
+    width: 32%;
+    text-align: center;
+    margin: 36px 0 12px 0;
+  }
+
+  @media screen and (max-width: 1024px){
+    .cover__paragraph{
+      width: 37%;
+    }
+  
+  } 
+
+  @media screen and (max-width: 768px){
+    .cover__paragraph{
+      width: 50%;
+    }
+  
+  } 
+  @media screen and (max-width: 425px){
+    .cover__paragraph{
+      width: 94%;
+      margin: 12px 0 0 0;
+    }
+  
+  } 

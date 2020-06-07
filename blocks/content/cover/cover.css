@@ -1,0 +1,43 @@
+@import url('../cover/__paragraph/cover__paragraph.css');
+@import url('../cover/__text-overlay/cover__text-overlay.css');
+@import url('../cover/__title/cover__title.css');
+
+.cover {
+    display: flex;
+    flex-direction: column;
+  align-content:center;
+    margin: 102px auto 0 auto;
+    width: 82%;
+    min-height: 594px;
+    color: white;
+    position: relative;
+  }
+
+  .cover:hover .item-bg__rect {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 1024px){
+  .cover {
+    width: 100%;
+    min-height: 562px;
+  }
+
+} 
+
+
+@media screen and (max-width: 768px){
+  .cover {
+    margin: 40px auto auto auto;
+    min-height: 500px;
+  }
+
+} 
+
+@media screen and (max-width: 425px){
+  .cover  {
+    min-height: 272px;
+    margin:0;
+  }
+
+}

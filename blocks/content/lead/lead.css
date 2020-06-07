@@ -1,0 +1,28 @@
+@import url('../lead/__caption/lead__caption.css');
+@import url('../lead/__image-overlay/lead__image-overlay.css');
+@import url('../lead/__image/lead__image.css');
+@import url('../lead/__subtitle/lead__subtitle.css');
+@import url('../lead/__title/lead__title.css');
+
+.lead {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 68%;
+  }
+
+  @media screen and (max-width: 1024px){
+    .lead {
+     width: 91%;
+    }
+  
+  } 
+
+  @media screen and (max-width: 768px){
+    .lead {
+      width: 100%;
+    }
+  
+  } 

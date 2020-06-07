@@ -1,0 +1,12 @@
+
+.video__item-duration {
+    letter-spacing: 0.3em;
+    margin: calc(22%) 0 0 0;
+  }
+
+  @media screen and (max-width: 768px){
+    .video__item-duration {
+      margin: 0;
+    }
+
+} 

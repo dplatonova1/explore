@@ -1,0 +1,33 @@
+@import url('../places/__paragraphs/places__paragraphs.css');
+@import url('../places/__image/places__image.css');
+@import url('../places/__row/places__row.css');
+@import url('../places/__rows/places__rows.css');
+@import url('../places/__title/places__title.css');
+
+.places {
+    margin: 0 auto 102px auto;
+    width: 68%;
+  }
+
+
+@media screen and (max-width: 1024px){
+    .places {
+     width: 91%;
+    }
+  
+  } 
+
+  @media screen and (max-width: 768px){
+    .places{
+     width: 94%;
+    }
+  
+  } 
+
+  @media screen and (max-width: 425px){
+    .places{
+     width: 100%;
+     margin: 0 auto 64px auto;
+    }
+  
+  } 

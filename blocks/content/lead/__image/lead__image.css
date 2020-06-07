@@ -1,0 +1,18 @@
+.lead__image {
+    background-image: url(../../../../images/girl.jpg);
+    width: 100%;
+    padding-top: 56%;
+    margin: 75px 0 0 0;
+    z-index: 2;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+  }
+
+
+  @media screen and (max-width: 425px){
+    .lead__image  {
+      margin: 31px 0 0 0;
+    }
+  
+  }

@@ -1,0 +1,36 @@
+
+.lead__title {
+    margin: 48px auto auto auto;
+    font-size: 6rem;
+    text-align: center;
+    width: 80%;
+  }
+
+  @media screen and (max-width: 802px){
+    .lead__title {
+      font-size: 4rem;
+    }
+  
+  } 
+  
+  @media screen and (max-width: 768px){
+    .lead__title {
+      width: 100%;
+    }
+  
+  } 
+
+  @media screen and (max-width: 692px){
+    .lead__title {
+      font-size: 3.5rem;
+    }
+  
+  } 
+    
+  @media screen and (max-width: 425px){
+    .lead__title {
+      font-size: 2.5rem;
+      width: 90%;
+    }
+  
+  } 

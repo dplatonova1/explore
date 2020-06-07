@@ -1,0 +1,15 @@
+.header__lang {
+    color: #ffffff;
+    text-decoration: none;
+    padding-right: 18px;
+    padding-bottom: 12px;
+    text-align: right;
+  }
+  
+  .header__lang:last-child {
+    padding-right: 0;
+  }
+  
+  .header__lang:hover {
+    text-decoration: underline;
+  }

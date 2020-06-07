@@ -1,0 +1,14 @@
+@import url('../item-bg/__image/item-bg__image.css');
+@import url('../item-bg/__rect/item-bg__rect.css');
+
+.item-bg {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 7px;
+    overflow: hidden;
+    align-self: center;
+  }

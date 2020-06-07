@@ -1,0 +1,13 @@
+
+
+.video__item-icon-play {
+    height: 41px;
+    width: 41px;
+  }
+
+  @media screen and (max-width: 768px){
+    .video__item-icon-play {
+      margin: 0 0 24px 0;
+    }
+
+} 

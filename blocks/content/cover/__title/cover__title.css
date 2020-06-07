@@ -1,0 +1,47 @@
+.cover__title {
+    margin: 0;
+    width: 100%;
+  }
+
+
+@media screen and (max-width: 1024px){
+    .cover__title {
+      width: 50%;
+    }
+  
+  } 
+
+  @media screen and (max-width: 874px){
+    .cover__title {
+      width: 100%;
+    }
+  
+  } 
+
+  @media screen and (max-width: 768px){
+    .cover__title {
+      font-size: 4.5rem;
+      line-height: 4.875rem;
+      width: 70%;
+    }
+  
+  } 
+
+  @media screen and (max-width: 630px){
+    .cover__title {
+      font-size: 3rem;
+      width: 100%;
+    }
+  
+  } 
+
+ 
+  @media screen and (max-width: 425px){
+    .cover__title {
+      /* font-size: 32px; */
+      font-size: 2rem;
+      /* line-height: 36px; */
+      line-height: 2.25rem;
+    }
+  
+  } 

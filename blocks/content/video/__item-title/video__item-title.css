@@ -1,0 +1,11 @@
+.video__item-title {
+    font-size: 2.25rem;
+    margin: 12px 0 0 0;
+  }
+
+  @media screen and (max-width: 1024px){
+    .video__item-title {
+      font-size: 1.5rem;
+    }
+  
+  } 

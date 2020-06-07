@@ -1,0 +1,43 @@
+
+.video__item {
+    width: 50%;
+    min-height: 22%; 
+    color: #ffffff;
+    position: relative;
+    margin-right: 18px;
+    overflow: hidden;
+  }
+
+  
+.video__item:hover .item-bg__rect {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 1024px){
+  .video__item {
+    min-height: 28%; 
+    margin-right: 16px;  
+  }
+}
+
+  @media screen and (max-width: 768px){
+    .video__item {
+      min-height: 26%;
+    }
+
+} 
+@media screen and (max-width: 692px){
+  .video__item{
+    width: 70%;
+    margin: auto auto 12px auto;
+  }
+
+} 
+
+@media screen and (max-width: 425px){
+  .video__item{
+    width: 91%;
+    margin: auto auto 8px auto;
+  }
+
+} 
